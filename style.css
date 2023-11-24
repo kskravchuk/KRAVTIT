@@ -1,0 +1,363 @@
+html{
+    background-color: #FFF7E9;
+    width: 100%;
+    height: auto;
+}
+
+.header1 {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #C4966C;
+    width: 100%;
+    height: 84px;
+}
+
+.mainpart {
+    margin-top: 100px;
+}
+
+.logo {
+font-family: Montserrat;
+font-style:normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 29px;
+color: #fff;
+text-align: left;
+padding-top: 33px;
+margin-left: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    padding-top: 20px;
+    margin-left: auto;
+    
+}
+
+.menu__link {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 24px;
+}
+
+.text0 {
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 29px;
+color: #000000;
+text-align: center;
+margin-top: 30px;
+}
+
+.blok1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.ksusha{
+   position: relative;
+   margin-left: 250px;
+   margin-top: -65px;
+   width: 320px; 
+   height: 430px; 
+}
+
+.rectangle{ 
+position: absolute;
+width: 380px;
+height: 420px;
+margin-left: 250px;
+margin-top: 20px;
+top: 170px;
+z-index: -1;
+background: #C4966C;
+}
+
+p{  
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+}
+
+.blok_text {
+    margin-left: 150px;
+   
+}
+
+.text{
+width: 560px;
+height: 200px;
+margin-top: -30px;
+}
+
+.inst{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+ 
+}
+
+.inst1{
+    display: flex;
+    width: 50px;
+    height: 50px;
+   
+}
+
+a{
+text-decoration: none;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+margin-left: 10px; 
+margin-top: 13px;
+}
+
+a:hover {
+    color: #000000;
+    transition: .3s;
+    text-decoration:none; 
+}
+
+.insta {
+    display: flex;
+    flex-direction: column;
+}
+
+.sasha {
+    margin-top: 8px;
+}
+
+.slider__item {
+    text-align: center;
+    }
+    
+    .slick-track {
+    display: flex;
+    }
+    
+    .slick-list {
+    overflow: hidden;
+    }
+    
+    .slider {
+    position: relative;
+    padding: 0px 60px;
+    margin-top: 50px;
+    }
+
+    .slick-arrow {
+        position: absolute;
+        top: 50%;
+        z-index: 10;
+        font-size: 0;
+        }
+        
+        .slick-dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -40px;
+        }
+        
+        .slick-dots li {
+        list-style: none;
+        margin: 0px 10px;
+        }
+        
+        .slick-dots button {
+        font-size: 0;
+        width: 10px;
+        height: 13px;
+        background-color: blackф;
+        border-radius: 50%;
+        border: 0;
+        }
+        
+        .slick-dots li.slick-active button {
+        background-color: #afbcc4;
+        border: 1px solid #fff;
+        }
+
+
+.about_us {
+    margin-top: 50px;
+}
+
+.we {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.text1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 29px;
+    color: #000000;
+    text-align: center;
+    margin-top: 30px;
+    }
+
+.group4 {
+    width: 220px;
+    height: 220px;
+    margin-left: 270px;
+}     
+.group5 {
+    width: 220px;
+    height: 220px;
+    margin-right: 270px;
+}    
+
+.fade-in {
+    opacity: 0; /* начальное значение непрозрачности */
+    animation: fadeIn ease-in 1; /* добавляем анимацию fadeIn */
+    animation-fill-mode: forwards; /* будет видимым после завершения анимации */
+    animation-duration: 1s; /* длительность анимации в 1 секунду */
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .textsasha {
+    margin-left: 170px;
+  }
+
+  .textksusha {
+    margin-right: 30px;
+  }
+
+  .ksushka {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 29px;
+    color: #000000;
+    text-align: center;
+    margin-top: 60px;
+    }
+
+.photo {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+text-align: center;
+}
+
+.contacts {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 29px;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    width: 100%;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    line-height: 8px;
+    margin-top: -10px;
+    
+}
+
+.footer {
+    background-color: #C4966C;
+    width: 100%;
+    height: 300px; 
+}
+
+.footer__link:hover {
+        color: #000000;
+        transition: .3s;
+        text-decoration:none; 
+}
+
+.text1__links_footer, .text2__links_footer, .text3__links_footer   {
+    color: #fff;
+}
+
+
+.tg {
+width: 50px;
+height: 50px;
+}
+
+.foottext {
+    color: #fff;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inf {
+    margin-right: 200px;
+    margin-top: 9px;
+}
+
+a.button {
+    display: inline-block;
+    background: rgb(230, 142, 75);
+    color: #fff;
+    padding: 12px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 100;
+  }
+  
+.button {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+.a.button:hover {
+    color: #000000;
+    transition: .3s;
+    text-decoration:none; 
+}
